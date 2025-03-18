@@ -1,0 +1,55 @@
+html {
+    background-color: beige; /* Background color to beige */
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif; /* Fonts to Times new roman for the entire webpage */
+    color: #333; /* Dark grey for readability */
+    margin: 0; /* Removes default margin */
+    padding: 20px; /* Adds padding around the content */
+    text-align: left; /* Aligns text to the left */
+}
+
+p {
+    text-align: justify; /* Justifies paragraph text */
+    font-size: 15px; /* Sets font size of paragraphs */
+    text-align: left; /* Aligns text to the left */
+}
+h1 {
+    color: #ff9900; /* Mango Color */
+    text-align: left; /* Aligns text to the left */
+}
+
+h2 {
+    color: #d2691e; /* Chocolate Color for Ingredients & Method */
+    text-align: left; /* Aligns text to the left */
+}
+
+img {
+    width: 300px; /* Sets width of the immage */
+    border-radius: 15px; /* Round corners of the image */
+    display: block; /* Makes image as block element */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); /* Adds a shadow effect to the image */
+}
+
+ul, ol {
+    text-align: left; /* Aligns lists to the left */
+    display: inline-block; /* Ensures lists do not stretch across the page */
+    margin: 20px auto; /* Adds margin above and below the lists */
+    line-height: 1.6; /* Increases space between lines for readability */
+}
+
+li {
+    margin-bottom: 10px; /* Adds space between list items */
+}
+
+hr {
+    border: 2px solid #553b32; /* Brown Line for separation */
+    width: 100%; /* Makes the horizontal line span the entire width */
+    margin: 20px auto; /* Adds space above and below the line */
+}
+
+ol li:last-child {
+    font-weight: bold; /* Makes the final step bold */
+    color: #ff4500; /* Orange Red for the Final Step */
+}
