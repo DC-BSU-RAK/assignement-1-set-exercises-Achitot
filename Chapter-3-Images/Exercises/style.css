@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+.image-container {
+    margin: 50px 0;
+}
+img {
+    width: 400px;
+    height: auto;
+    filter: grayscale(0%) contrast(80%) brightness(105%) saturate(100%) drop-shadow(5px 5px 1px rgb(0 0 0 / 70%));
+
+}
+.license {
+    font-size: 14px;
+    color: #666;
+}
