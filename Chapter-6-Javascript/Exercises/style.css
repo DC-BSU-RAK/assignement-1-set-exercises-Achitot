@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fcecec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Container for the calculator */
+  .container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 280px;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.1);
+    font-family: inherit; /* Inherits from body or JS-set value */
+  }
+  
+  /* Labels and inputs */
+  label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: #800000;
+  }
+  
+  select,
+  input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-family: inherit;
+  }
+  
+  /* Focus effect */
+  input:focus,
+  select:focus {
+    border-color: #cc0000;
+    outline: none;
+    box-shadow: 0 0 5px rgba(204, 0, 0, 0.4);
+  }
+  
+  /* Button styling */
+  button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    background-color: #cc0000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: inherit;
+    cursor: pointer;
+  }
+  
+  /* Hover effect */
+  button:hover {
+    background-color: #990000;
+  }
+  
+  /* Result */
+  #result {
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #800000;
+  }
+  
